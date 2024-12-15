@@ -29,4 +29,5 @@ def browser_set():
     attach.add_logs(browser)
     attach.add_html(browser)
     attach.add_video(browser)
+
     browser.quit()

@@ -7,7 +7,7 @@ def test_practice_form():
 
     with allure.step("Открытие формы регистрации"):
         practice_form_page = PracticeFormPage()
-        practice_form_page.open("https://demoqa.com/automation-practice-form")
+        practice_form_page.open()
 
     with allure.step("Заполнение полного имени"):
         practice_form_page.fill_first_name("Andrei")
