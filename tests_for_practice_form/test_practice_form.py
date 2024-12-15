@@ -3,7 +3,7 @@ import allure
 
 
 @allure.title("Успешное заполнение формы")
-def test_practice_form():
+def test_practice_form(browser_set):
 
     with allure.step("Открытие формы регистрации"):
         practice_form_page = PracticeFormPage()
